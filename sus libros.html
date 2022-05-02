@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<HTML>
+</HEAD>
+<style>
+p {
+  margin: 80px;
+}
+h1 {
+  margin: 80px;
+}
+ul {
+  margin: 80px;
+}
+label {
+  margin: 80px;
+}
+
+    .div-1 {
+        background-color: #ce99ff;
+    }
+    
+    .div-2 {
+    	background-color: #e6ccff;
+    }
+    
+    .div-3 {
+    	background-color: #ce99ff;
+    }
+.texto-justificado{
+text-align: justify;
+}
+</style>
+
+<BODY>
+<body bgcolor=#e6ccff>
+<center>
+<div class="div-1">
+<font size="5" face="Segoe script">
+<a href="file:///E:/Su%20vida.html">Su vida</a>
+</font>
+</div>
+
+<div class="div-2">
+<font size="5" face="Segoe script">
+<a href="file:///E:/sus%20logros.html">Sus logros</a>
+</font>
+</div>
+
+<div class="div-3">
+<font size="5" face="Segoe script">
+<a href="file:///E:/sus%20libros.html">Sus libros</a>
+</font>
+</div>
+</center>
+
+<center>
+<FONT COLOR="#8f2424">
+<font size="6" face="Segoe script">
+<h1><a href="file:///E:/pagina.html">María Luisa Bombal</h1></a>
+</font>
+</span>
+
+<span style="color:#4f0099">
+<font size="6" face="Segoe script">
+<p>1910 a 1980</p>
+</font>
+</span>
+</center>
+
+
+
+<span style="color:#901aff">
+<font size="6" face="Segoe script">
+<h1>Sus libros</h1>
+</font>
+</span>
+
+
+<span style="color:#4f0099">
+<font size="6" face="Microsoft Sans Serif">
+<em>
+<p> En 1934 María Luisa Bombal publica su primer escrito de un total de cinco. Los cuales son:
+<center>*toca las imagenes para ir a sitios de descarga</center>
+<ul>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-92552.html">La ultima niebla</a>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-7996.html">
+<img src="articles-7996_thumbnail.jpg"
+     widht="500"
+     height="500">
+</a>
+<br>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-92550.html">La amortajada</a>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-8350.html">
+<img src="articles-8350_thumbnail.jpg"
+     widht="500"
+     height="500">
+</a>
+<br>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-92548.html">El arbol</a>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-69906.html">
+<img src="articles-69906_thumbnail.jpg"
+     widht="500"
+     height="500">
+</a>
+<br>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-92548.html">Las islas nuevas</a>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-69905.html">
+<img src="articles-69905_thumbnail.jpg"
+     widht="500"
+     height="500">
+</a>
+<br>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-92551.html">La historia de María Griselda</a>
+<br>
+<br>
+<a href="http://www.memoriachilena.gob.cl/602/w3-article-72771.html">
+<img src="articles-72771_thumbnail.jpg"
+     widht="500"
+     height="500">
+<a/>
+</ul>
+</p>
+</em>
+</font>
+</span>
+ 
+
+
+
+
+
+
+
+<script>
+  function agregarComentario() {
+    const listaComentarios = document.getElementById('lista-comentarios');
+    const nombre = document.getElementById('nombre').value;
+    const comentario = document.getElementById('comentario').value;
+
+    const nuevoComentario = document.createElement('li');
+    const textoComentario = document.createTextNode(nombre + ": " + comentario)
+    nuevoComentario.appendChild(textoComentario);
+    listaComentarios.appendChild(nuevoComentario);
+  }
+</script>
+
+<span style="color:#901aff"><font size="3" face="Segoe script"><h1>Dejanos algun comentario sobre ellos:</h1></font></span>
+
+<span style="color:#4f0099">
+<font size="3" face="Microsoft Sans Serif">
+<em><ul id="lista-comentarios"></ul></em></font></span>
+
+<span style="color:#4f0099">
+<font size="3" face="Microsoft Sans Serif">
+<em><label for="nombre">Nombre:</label>
+<input type="text" id="nombre">
+
+<label for="comentario">Comentario:</label>
+<input type="text" id="comentario">
+</em></font></span>
+<input type='button' onclick='agregarComentario()' value='Comentar' />
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</BODY> 
+</HTML>
